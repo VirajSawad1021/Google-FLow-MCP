@@ -1,0 +1,20 @@
+# Dependencies & build
+node_modules/
+dist/
+
+# Browser profiles & session cookies (NEVER commit)
+.browser-data/
+.browser-data-*/
+flow-profiles/
+
+# Generated media & logs
+outputs/
+*.log
+
+# Local environment & agent configs
+.env
+.agents/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
